@@ -1,0 +1,8 @@
+.numeros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+.numero { background: var(--fundo); border-radius: 10px; padding: 16px; }
+.numero strong { display: block; font-size: 28px; color: var(--destaque); }
+.numero span { color: var(--suave); font-size: 14px; }
