@@ -1,0 +1,30 @@
+.temas { display: grid; gap: 10px; }
+
+.tema {
+  display: grid;
+  grid-template-columns: 110px 1fr 70px;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.tema-nome { font-weight: 600; }
+
+.tema-trilho {
+  background: var(--fundo);
+  border-radius: 999px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.tema-barra {
+  background: var(--destaque);
+  height: 100%;
+  border-radius: 999px;
+}
+
+.tema-valor { color: var(--suave); text-align: right; }
+
+@media (max-width: 480px) {
+  .tema { grid-template-columns: 80px 1fr 60px; gap: 8px; }
+}
