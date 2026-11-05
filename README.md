@@ -46,7 +46,7 @@ painel-de-estudos/
 | ✅ | Resumo com total de horas, dias e média | Somar valores com `forEach` e contar dias únicos com `Set` |
 | ✅ | Sequência de dias seguidos | Trabalhar com datas e comparar cada dia com o anterior |
 | ✅ | Tempo por tema | Agrupar minutos por assunto com um objeto e desenhar barras proporcionais com CSS |
-| 🔜 | Mural com os últimos aprendizados | |
+| ✅ | Mural com os últimos aprendizados | Copiar uma lista com `slice`, ordenar por data com `sort` e pegar só os primeiros itens |
 | 🔜 | Calendário de estudos | |
 
 ## 🛠️ Tecnologias

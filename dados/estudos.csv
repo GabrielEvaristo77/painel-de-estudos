@@ -3,3 +3,4 @@ data,tema,minutos,aprendizado
 2026-10-29,JavaScript,35,usei forEach para somar valores e Set para contar dias sem repetir
 2026-10-30,JavaScript,60,calculei a diferença entre datas para contar dias seguidos
 2026-11-04,JavaScript,45,agrupei os minutos por tema usando um objeto e desenhei barras proporcionais com CSS
+2026-11-05,JavaScript,40,copiei a lista com slice e ordenei por data com sort para mostrar só os últimos aprendizados
