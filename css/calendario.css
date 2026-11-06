@@ -1,0 +1,36 @@
+.calendario-mes {
+  margin: 0 0 12px;
+  color: var(--suave);
+  font-size: 14px;
+}
+
+.calendario {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  max-width: 360px;
+}
+
+.calendario-semana {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--suave);
+}
+
+.calendario-dia {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: var(--fundo);
+  font-size: 13px;
+  color: var(--suave);
+}
+
+.calendario-dia.estudou {
+  background: var(--destaque);
+  color: #ffffff;
+  font-weight: 600;
+}

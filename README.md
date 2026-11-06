@@ -47,7 +47,7 @@ painel-de-estudos/
 | ✅ | Sequência de dias seguidos | Trabalhar com datas e comparar cada dia com o anterior |
 | ✅ | Tempo por tema | Agrupar minutos por assunto com um objeto e desenhar barras proporcionais com CSS |
 | ✅ | Mural com os últimos aprendizados | Copiar uma lista com `slice`, ordenar por data com `sort` e pegar só os primeiros itens |
-| 🔜 | Calendário de estudos | |
+| ✅ | Calendário de estudos | Descobrir quantos dias tem o mês com `new Date(ano, mes + 1, 0)` e em que dia da semana ele começa com `getDay()` |
 
 ## 🛠️ Tecnologias
 
