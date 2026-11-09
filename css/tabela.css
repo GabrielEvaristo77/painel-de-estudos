@@ -1,0 +1,37 @@
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.filtros select,
+.filtros input {
+  font: inherit;
+  font-size: 14px;
+  color: var(--texto);
+  background: var(--fundo);
+  border: 1px solid var(--borda);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.filtros input { flex: 1; min-width: 180px; }
+
+.filtros select:focus,
+.filtros input:focus {
+  outline: 2px solid var(--destaque);
+  outline-offset: 1px;
+}
+
+.filtros-contador {
+  color: var(--suave);
+  font-size: 13px;
+}
+
+.vazio {
+  text-align: center;
+  color: var(--suave);
+  padding: 16px;
+}
